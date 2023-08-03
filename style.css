@@ -9,7 +9,7 @@
  }
 
  body {
-     max-width: fit-content;
+     max-width: max-content;
      width: 100%;
      margin-left: 1%;
  }
@@ -71,24 +71,98 @@
      color: rgba(2, 15, 34, 0.60);
  }
 
+ 
+
 
  /* overview section */
 
  .overview {
+    position: relative;
      display: flex;
      margin-left: 3%;
      margin-top: 1.5%;
  }
 
- .overview img {
-     border-radius: 32px;
+ .main-img img {
+    border-radius: 32px;
      width: 100%;
+     height: 130%;
  }
+
+ .mini-img1 {
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 2%;
+ }
+
+ .mini-img2 {
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 3%;
+ }
+
+ .mini-img3 {
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 2%;
+    width: 20%;
+ }
+
+ .mini-img4 {
+    position: absolute;
+    margin-left: 13.5%;
+    margin-top: 13%;
+ }
+
+ .mini-img5 {
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 2%;
+ }
+
+ .mini-img6 {
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 13%;
+ }
+
+ .mini-img7 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 7%
+ }
+
+.overview-text {
+    position: absolute;
+    color: #FFFFFF;
+    margin-left: 30%;
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+}
+
+.overview-text h1 {
+    width: 100%;
+    margin-left: 82%;
+}
+
+.overview-text p {
+    width: 100%;
+    margin-left: 78%;
+    padding: 1%;
+    font-weight: 600;
+    letter-spacing: 30%;
+}
+
+
+
+
 
  /* class-schedule heading section */
 
  .class-schedule {
      display: flex;
+     margin-top: 10%;
      font-family: 'Roboto', sans-serif;
  }
 
@@ -188,92 +262,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
- /* schedule-section */
-
- /* .schedule-section {
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-    border-collapse: collapse;
-
-}
-
-.first-row {
-    display: flex;
-    margin-right: 15%;
-}
-
-.yoga {
-    border: 0.5px solid #B5B5B5;
-    padding: 5%;  
-}
-
-.step-dance {
-    border: 0.5px solid #B5B5B5;
-    padding: 5%;
-}
-
-.spinning {
-    border: 0.5px solid #B5B5B5;
-    padding: 5%;
-}
-
-.nutrition {
-    border: 0.5px solid #B5B5B5;
-    padding: 5%;
-}
-
-.boxing {
-    border: 0.5px solid #B5B5B5;
-    padding: 5%;
-}
-
-.second-row {
-    position: absolute;
-    display: flex;
-    margin-top: 14%;
-    width: 60%;
-    border-collapse: collapse;
-}
-
-.hict {
-    border: 0.5px solid #B5B5B5;
-    padding: 4%;
-    height: 10%;
-}
-
-.skipping {
-    border: 0.5px solid #B5B5B5;
-    padding: 4%;
-    height: 10%;
-}
-
-.karate {
-    border: 0.5px solid #B5B5B5;
-    padding: 4%;
-    height: 10%;
-}
-
-.weight-loss {
-    border: 0.5px solid #B5B5B5;
-    padding: 4%;
-    height: 10%;
-}
-
-.trampoline {
-    border: 0.5px solid #B5B5B5;
-    padding: 4%;
-    padding-right: 7%;
-    padding-bottom: 2%;
-} */
