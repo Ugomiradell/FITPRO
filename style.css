@@ -120,6 +120,10 @@
      margin-top: 2%;
  }
 
+ .mini-img5b {
+    display: none;
+ }
+
  .mini-img6 {
      position: absolute;
      margin-left: 27%;
@@ -273,6 +277,10 @@
          display: none;
      }
 
+     .mini-img5 {
+        display: none;
+     }
+
      table,
      td {
          border: transparent;
@@ -318,7 +326,6 @@
          width: 115%;
          margin-top: 73%;
          margin-left: 0%;
-         /* padding: 5%; */
      }
 
      .overview-text h1 {
@@ -333,5 +340,29 @@
      .class-schedule h1 {
         margin-top: 30%;
      }
+
+     .mini-img4 {
+        margin-left: 2%;
+        margin-top: 25%;
+     }
+
+     .mini-img4 img {
+        width: 70%;
+     }
+
+     .mini-img5b {
+        display: flex;
+        position: absolute;
+        margin-left: 19%;
+        margin-top: 37%;
+     }
+
+     .mini-img1 {
+        margin-left: 45%;
+        margin-top: 40%;
+     }
+
+
+
 
  }
